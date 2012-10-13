@@ -1,11 +1,13 @@
 # Atsaty
 
 A tweet says a thousand yeps...
-  
+
   
 Atsaty acts like `yes`, but instead of always outputting yeps,
-it looks up the current mood of English-speaking tweeters on Twitter. If there are more positive
-tweeters than negative, it outputs yep, otherwise it outputs nope.
+it uses [sentiment analysis](https://github.com/thisandagain/sentiment) to
+find the current mood of English-speaking tweeters on Twitter.
+If there are more positive tweeters than negative, it outputs yep, otherwise
+it outputs nope.
 
 ```sh
 $ atsaty
@@ -74,7 +76,8 @@ n
 ### atsaty([user,] cb)
 
 Uses the [Twitter Search API](https://dev.twitter.com/docs/using-search)
-and negative / positive mood detection to figure out how Twitter is currently feeling.
+and sentiment analysis to figure out how Twitter is currently feeling.
+
 If `user` is provided, then it will check the mood of a specific Twitter user
 instead of the entire Twitter community.  
   
