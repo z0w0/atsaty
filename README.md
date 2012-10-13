@@ -73,7 +73,7 @@ n
 
 ## API
 
-### atsaty([user,] cb)
+### atsaty([query,] cb)
 
 Uses the [Twitter Search API](https://dev.twitter.com/docs/using-search)
 and sentiment analysis to figure out how Twitter is currently feeling.
