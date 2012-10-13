@@ -1,6 +1,6 @@
 # Atsaty
 
-A tweet says a thousand yeps...
+*A tweet says a thousand yeps...*
 
 Atsaty acts like `yes`, but instead of always outputting yeps,
 it uses [sentiment analysis](https://github.com/thisandagain/sentiment) to
