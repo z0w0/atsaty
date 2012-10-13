@@ -1,0 +1,27 @@
+{
+    "name": "atsaty",
+    "description": "A tweet says a thousand yeps",
+    "tags": ["twittwer", "tweet", "yep", "nope"],
+    "version": "0.0.1",
+    "author": "Zack Corr <zack@z0w0.me>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/z0w0/atsaty.git"
+    },
+    "bugs": {
+        "url": "http://github.com/z0w0/atsaty/issues"
+    },
+    "main": "./lib/main",
+    "bin": {
+        "atsaty": "bin/atsaty"
+    },
+    "dependencies": {
+        "commander": "1.0.x",
+        "request": "2.11.x",
+        "sentiment": "0.1.x",
+        "async": "0.1.xx"
+    },
+    "engines": {
+        "node": ">= 0.6.x"
+    }
+}
