@@ -77,11 +77,11 @@ n
 Uses the [Twitter Search API](https://dev.twitter.com/docs/using-search)
 and sentiment analysis to figure out how Twitter is currently feeling.
 
-If `user` is provided, then it will check the mood of a specific Twitter user
-instead of the entire Twitter community.  
-  
+If `query` is provided, then it will check the mood of a specific search
+query instead of the entire Twitter community (e.g. "#racist #cats").
+
 The callback will be called with an error or `null` as its first argument,
-`false` as its second if there is no positive tweets or there
+`false` as its second if there are no positive tweets or there
 are more negative tweets than positive ones, otherwise it calls with a second
 argument of `true`.
 
