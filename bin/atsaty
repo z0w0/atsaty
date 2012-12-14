@@ -6,8 +6,8 @@ var atsaty = require(".."),
 
 program
     .version(pkg.version)
-    .option("-y, --yep <msg>", "Message to output for yep")
-    .option("-n, --nope <msg>", "Message to output for nope")
+    .option("-y, --yep <msg>", "message to output for yep")
+    .option("-n, --nope <msg>", "message to output for nope")
     .parse(process.argv);
 
 atsaty(program.args.join(" "), function(err, yep) {

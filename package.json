@@ -2,7 +2,7 @@
     "name": "atsaty",
     "description": "A tweet says a thousand yeps",
     "tags": ["twitter", "tweet", "yep", "nope", "sentiment"],
-    "version": "0.0.2",
+    "version": "0.1.0",
     "author": "Zack Corr <zack@z0w0.me>",
     "repository": {
         "type": "git",
